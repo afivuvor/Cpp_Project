@@ -4,3 +4,5 @@ project(untitled3)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(untitled3 main.cpp Routes.cpp)
+
+add_executable(Airlines cmake-build-debug/Airlines.cpp)
