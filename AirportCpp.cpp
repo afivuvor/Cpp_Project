@@ -31,11 +31,10 @@ public:
         this -> ICAO = ICAO;
     }
 
-
 };
 
 string Airport::toString(){
-    return airportID + " " + airportName + " " + ICAO;
+    return this->airportID + " " + airportName + " " + ICAO;
 }
 
 string Airport::getAirportID(){
