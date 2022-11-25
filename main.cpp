@@ -1,6 +1,8 @@
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+using namespace std;
+
+int main(){
+    cout << "Always rooting for the...hehe rooting";
     return 0;
 }
